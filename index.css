@@ -7,7 +7,8 @@
 	font-weight:600;
 	/*font-size:60px;*/
 	font-size:6em;
-	padding-top:3.5%
+	padding-top:4%;
+	margin-bottom: 1%;
 }
 
 .title:before {
@@ -27,6 +28,7 @@
 	font-family:Zilla Slab;
 	color:white;
 	font-size:2em;
+	padding-bottom: 5.5em;
 }
 
 .animated {
@@ -52,4 +54,30 @@
 .fadeIn {
 	-webkit-animation-name: fadeIn;
 	animation-name: fadeIn;
+}
+
+.buttonBox {
+    text-align:center;
+}
+
+.button {
+  margin: 0 auto;
+  display: inline-block;
+  padding: 1em 2em;
+  font-size: 2em;
+  font-family:Zilla Slab;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #86162c;
+  background-color: #fff;
+  border: none;
+  border-radius: 3em;
+}
+
+.button:hover {background-color: #eee}
+
+.button:active {
+  background-color: #fdbf14;
 }
