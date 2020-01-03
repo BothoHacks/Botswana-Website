@@ -81,3 +81,41 @@
 .button:active {
   background-color: #fdbf14;
 }
+
+.restOfPage {
+	height: 20em;
+}
+
+.subtitle {
+	/*padding-top:15%;*/
+	text-align:left;
+	font-family:Zilla Slab;
+	color:white;
+	font-weight:600;
+	/*font-size:60px;*/
+	font-size:6em;
+	padding-top:4%;
+	padding-left: 2%;
+	margin-bottom: 1%;
+}
+
+.subtitle:before {
+	/*padding-top:15%;*/
+	content: 'what\'s a ';
+	color:white;
+}
+
+.subtitle:after {
+	/*padding-top:15%;*/
+	content: 'hackathon?';
+	color: #fdbf14;
+}
+
+.desc {
+	padding-left: 2%;
+	text-align:left;
+	font-family:Zilla Slab;
+	color:white;
+	font-size:2em;
+	padding-bottom: 5.5em;	
+}
