@@ -2,24 +2,25 @@
 <!DOCTYPE html>
 <html class="animated fadeIn">
 <link rel="stylesheet" href="index.css"></link>
+<title>BothoHacks</title>
 <body>
   <div class="animated fadeIn">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="fade.js"></script>
+    <script type="text/javascript" src="scroll.js"></script>
     <p class=title></p>
     <p class=title-desc>A Botswana-wide hackathon hosted at Botho University</p>
-    <div class="buttonBox">
-      <button class="button" onclick="window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSc3H8cPzCQd-eQYe04qHqkdCZ3OUrm-wqFgpb3ramNigEU5hw/viewform';">Apply</button>
-      <!--add learn more button next to this button-->
+    <div class="buttonsContainer">
+      <div class="buttonBox">
+        <button class="button" onclick="window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSc3H8cPzCQd-eQYe04qHqkdCZ3OUrm-wqFgpb3ramNigEU5hw/viewform';">Apply</button>
+      </div>
+      <div class="buttonBox">
+        <a  href="#desc"><button class="button">Learn More</button></a>
+      </div>
     </div>
     <div class="restOfPage"></div>
-    <p class=subtitle></p>
-    <p class="desc"> A hackathon is a 24-hour event where students come together in
-small teams to work on projects. The purpose of a hackathon is to have students learn
-about idea development and product design by being provided resources like hardware,
-workshops, and mentors. Hackathons are ultimately a collaborative space where creativity is
-encouraged and self-confidence can be obtained through hands on learning. </p>
-    <!--add what is a hackathon section here-->
+    <p id="desc" class=subtitle></p>
+    <p class="desc"> A hackathon is a 24-hour creative marathon where students come together and use their skills to take on real-world technical challenges and projects. At BothoHacks, we'll provide meals, mentorships, workshops and more! We just want you to come with your computer and a good attitude.</p>
   </div>
 </body>
 </html>

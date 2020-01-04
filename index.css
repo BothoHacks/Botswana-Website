@@ -28,7 +28,7 @@
 	font-family:Zilla Slab;
 	color:white;
 	font-size:2em;
-	padding-bottom: 5.5em;
+	padding-bottom: 5em;
 }
 
 .animated {
@@ -56,8 +56,18 @@
 	animation-name: fadeIn;
 }
 
+.buttonsContainer {
+	text-align: center;
+	padding-left: 10%;
+	width: 80%;
+}
+
 .buttonBox {
+	padding-left: 2%;
+	padding-right: 2%;
     text-align:center;
+    display: inline-block;
+    padding-bottom: 5%;
 }
 
 .button {
