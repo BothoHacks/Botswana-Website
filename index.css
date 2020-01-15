@@ -183,7 +183,7 @@
 
 /*Add some spacing*/
 .faq-section{
-margin: 100% 0;
+margin: 0 0 0 8%;
 position: relative;
 }
 
@@ -201,7 +201,7 @@ opacity: 0;
 display: none\9; /* IE8 and below */
 margin: 0;
 width: 100%;
-height: 7em;
+height: 8em;
 }
 
 /*Show only the clipped intro */
@@ -210,6 +210,8 @@ display: block;
 color: white;
 font-size: 1em;
 transition: all .15s ease-out;
+font-family: Zilla Slab;
+margin-left: 2.5em;
 /* Clipping text */
 text-overflow: ellipsis;
 white-space: nowrap;
@@ -220,7 +222,11 @@ overflow: hidden;
 .faq-section input[type=checkbox]:checked~p{
 display: block;
 color: white;
+font-family: Zilla Slab;
 font-size: 2em;
+margin-left: 2.5em;
+margin-top: .5em;
+margin-bottom: .5em;
 /* restore clipping defaults */
 text-overflow: none;
 white-space: normal;
@@ -235,8 +241,7 @@ position: relative;
 font-family: Zilla Slab;
 color: white;
 height: 1em;
-padding: .5em .5em;
-/*border: 1px solid #ddd;*/
+/*padding: .5em .5em;*/
 transition: all .15s ease-out;
 }
 
@@ -245,46 +250,16 @@ transition: all .15s ease-out;
 background: none;
 }
 
-
-/*If the checkbox is checked, style the label accordingly*/
-.faq-section input[type=checkbox]:checked~label{
-/*content: '';
-width: 50%;
-position: absolute;
-border: 6px solid transparent;
-border-left-color: inherit;*/
-/*border-color: #ff7f50;
-background: #f5deb4;
-background-image: linear-gradient(to bottom, #fff, #f5deb4);
-box-shadow: 0 0 1px rgba(0,0,0,.4);*/
-}
-
-/*Label's arrow - default state */
 .faq-section label::before{
-content: '';
-width: 50%;
-position: absolute;
-right: 4px;
-top: 50%;
-margin-top: -6px;
-border: 6px solid transparent;
-border-left-color: inherit;
+content: '+ ';
+position: relative;
+float:left;
 }
 
 /*Update the right arrow*/
 .faq-section input[type=checkbox]:checked~label::before{
-border: 60px solid transparent;
-border-top-color: none;
-/*margin-top: -3px;
-width: 50%;
-right: 4px;*/
-content: '';
-width: 50%;
-position: absolute;
-right: 4px;
-top: 50%;
-margin-top: -6px;
-border-left-color: inherit;  
-transform: rotate(90deg);
-  -webkit-transform: rotate(90deg);
+content: '- ';
+position: relative;
+float:left;
 }
+
