@@ -200,104 +200,194 @@
 
 .thirdSubtitle:after {
 	/*padding-top:15%;*/
-	content: 'Questionsx';
+	content: 'Questions';
 	color: #fdbf14;
 }
 
 
 
+
 /*Add some spacing*/
 .faq-section{
-margin: 0 0 0 8%;
-position: relative;
+	margin: 0 0 0 8%;
+	position: relative;
 }
 
 /*Hide the paragraphs*/
 .faq-section p{
-display: none;
+	display: none;
 }
 
 /*Hide the checkboxes */
 .faq-section input{
-position: absolute;
-z-index: 2;
-cursor: pointer;
-opacity: 0;
-display: none\9; /* IE8 and below */
-margin: 0;
-width: 100%;
-height: 8em;
+	position: absolute;
+	z-index: 2;
+	cursor: pointer;
+	opacity: 0;
+	display: none\9; /* IE8 and below */
+	margin: 0;
+	width: 100%;
+	height: 8em;
 }
 
 /*Show only the clipped intro */
 .faq-section label+p{
-display: block;
-color: white;
-font-size: 1em;
-transition: all .15s ease-out;
-font-family: Zilla Slab;
-margin-left: 2.5em;
-/* Clipping text */
-text-overflow: ellipsis;
-white-space: nowrap;
-overflow: hidden;
+	display: block;
+	color: white;
+	font-size: 1em;
+	transition: all .15s ease-out;
+	font-family: Zilla Slab;
+	margin-left: 2.5em;
+	/* Clipping text */
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
 }
 
 
 /*Style the label*/
 .faq-section label{
-font-size: 4em;
-display: block;
-position: relative;
-font-family: Zilla Slab;
-color: white;
-height: 1em;
-/*padding: .5em .5em;*/
-transition: all .15s ease-out;
+	font-size: 4em;
+	display: block;
+	position: relative;
+	font-family: Zilla Slab;
+	color: white;
+	height: 1em;
+	/*padding: .5em .5em;*/
+	transition: all .15s ease-out;
 }
 
 /*Remove text selection when toggle-ing*/
 .faq-section label::selection{
-background: none;
+	background: none;
 }
 
+
+
+
+/*Question 1*/
 .faq-section #l1::before{
-content: '+ ';
-position: relative;
-float:left;
+	content: '+ ';
+	position: relative;
+	float:left;
 }
 
-.faq-section input[type=checkbox]:checked~#l1::before{
-content: '- ';
-position: relative;
-float:left;
+.faq-section #q1[type=checkbox]:checked~#l1::before{
+	content: '- ';
+	position: relative;
+	float:left;
 }
-
 /*If the checkbox is checked, show all paragraphs*/
-.faq-section input[type=checkbox]:checked~#a1{
-display: block;
-color: white;
-font-family: Zilla Slab;
-font-size: 2em;
-margin-left: 2.5em;
-margin-top: .5em;
-margin-bottom: .5em;
-/* restore clipping defaults */
-text-overflow: none;
-white-space: normal;
-overflow: visible;
+.faq-section #q1[type=checkbox]:checked~#a1{
+	display: block;
+	color: white;
+	font-family: Zilla Slab;
+	font-size: 2em;
+	margin-left: 2.5em;
+	margin-top: .5em;
+	margin-bottom: .5em;
+	/* restore clipping defaults */
+	text-overflow: none;
+	white-space: normal;
+	overflow: visible;
 }
 
-.faq-section input[type=checkbox]:checked~#a1{
-display: block;
-color: white;
-font-family: Zilla Slab;
-font-size: 2em;
-margin-left: 2.5em;
-margin-top: .5em;
-margin-bottom: .5em;
-/* restore clipping defaults */
-text-overflow: none;
-white-space: normal;
-overflow: visible;
+.faq-section #q1[type=checkbox]:checked~#a1{
+	display: block;
+	color: white;
+	font-family: Zilla Slab;
+	font-size: 2em;
+	margin-left: 2.5em;
+	margin-top: .5em;
+	margin-bottom: .5em;
+	/* restore clipping defaults */
+	text-overflow: none;
+	white-space: normal;
+	overflow: visible;
+}
+
+
+
+
+/*Question 2*/
+.faq-section #l2::before{
+	content: '+ ';
+	position: relative;
+	float:left;
+}
+
+.faq-section #q2[type=checkbox]:checked~#l2::before{
+	content: '- ';
+	position: relative;
+	float:left;
+}
+/*If the checkbox is checked, show all paragraphs*/
+.faq-section #q2[type=checkbox]:checked~#a2{
+	display: block;
+	color: white;
+	font-family: Zilla Slab;
+	font-size: 2em;
+	margin-left: 2.5em;
+	margin-top: .5em;
+	margin-bottom: .5em;
+	/* restore clipping defaults */
+	text-overflow: none;
+	white-space: normal;
+	overflow: visible;
+}
+
+.faq-section #q2[type=checkbox]:checked~#a2{
+	display: block;
+	color: white;
+	font-family: Zilla Slab;
+	font-size: 2em;
+	margin-left: 2.5em;
+	margin-top: .5em;
+	margin-bottom: .5em;
+	/* restore clipping defaults */
+	text-overflow: none;
+	white-space: normal;
+	overflow: visible;
+}
+
+
+/*Question 3*/
+.faq-section #l3::before{
+	content: '+ ';
+	position: relative;
+	float:left;
+}
+
+.faq-section #q3[type=checkbox]:checked~#l3::before{
+	content: '- ';
+	position: relative;
+	float:left;
+}
+/*If the checkbox is checked, show all paragraphs*/
+.faq-section #q3[type=checkbox]:checked~#a3{
+	display: block;
+	color: white;
+	font-family: Zilla Slab;
+	font-size: 2em;
+	margin-left: 2.5em;
+	margin-top: .5em;
+	margin-bottom: .5em;
+	/* restore clipping defaults */
+	text-overflow: none;
+	white-space: normal;
+	overflow: visible;
+}
+
+.faq-section #q3[type=checkbox]:checked~#a3{
+	display: block;
+	color: white;
+	font-family: Zilla Slab;
+	font-size: 2em;
+	margin-left: 2.5em;
+	margin-top: .5em;
+	margin-bottom: .5em;
+	/* restore clipping defaults */
+	text-overflow: none;
+	white-space: normal;
+	overflow: visible;
 }
