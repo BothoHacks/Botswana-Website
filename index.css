@@ -206,6 +206,32 @@
 
 
 
+* {
+  box-sizing: border-box;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 
 /*Add some spacing*/
 .faq-section{
@@ -260,7 +286,9 @@
 	position: relative;
 	font-family: Zilla Slab;
 	color: white;
-	height: 1em;
+/*	height: 5%;*/
+	--pwidth: 100vw;
+	height:calc(1/var(--pwidth));
 	/*padding: .5em .5em;*/
 	transition: all .15s ease-out;
 }
