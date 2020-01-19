@@ -26,12 +26,12 @@
 }
 
 .title:before {
-	content: 'Botho';
+	content: 'Kopano';
 	color:white;
 }
 
 .title:after {
-	content: 'Hacks';
+	content: 'Code';
 	color: #fdbf14;
 }
 
@@ -141,6 +141,13 @@
 	font-size:2em;	
 }
 
+
+
+
+
+
+
+
 .secondSubtitle {
 	/*padding-top:15%;*/
 	text-align:left;
@@ -154,29 +161,53 @@
 	margin-bottom: 1%;
 }
 
-.secondSubtitle:before {
-	/*padding-top:15%;*/
-	content: 'Example';
-	color:white;
+#day{
+	text-decoration:underline;
 }
 
-.secondSubtitle:after {
-	/*padding-top:15%;*/
-	content: ' Projects';
-	color: #fdbf14;
+.schedule {
+  padding-left: 2%;
+  font-family:Zilla Slab;
+  color:white;
+  font-size:2em;	
+  box-sizing: border-box;
 }
 
-.exs{
-	padding-left: 10%;
-
+.event {
+	margin:0%;
 }
 
-.ex {
-	text-align:left;
-	font-family:Zilla Slab;
-	color:white;
-	font-size:2em;	
+.column {
+  float: left;
+  padding: 0%;
+  color: white;
+  box-sizing: border-box;
 }
+
+.left {
+  width: 20%;
+  color: #fdbf14;
+}
+
+.right {
+  width: 70%;
+}
+
+.row:after {
+  box-sizing: border-box;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+
+
+
 
 
 .thirdSubtitle{
@@ -206,31 +237,10 @@
 
 
 
-* {
-  box-sizing: border-box;
-}
 
-/* Create two unequal columns that floats next to each other */
-.column {
-  float: left;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
-}
 
-.left {
-  width: 25%;
-}
 
-.right {
-  width: 75%;
-}
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 
 /*Add some spacing*/
