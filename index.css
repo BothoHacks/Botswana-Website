@@ -194,13 +194,13 @@
 
 .thirdSubtitle:before {
 	/*padding-top:15%;*/
-	content: 'Frequently Asked ';
+	content: 'frequently asked ';
 	color:white;
 }
 
 .thirdSubtitle:after {
 	/*padding-top:15%;*/
-	content: 'Questions';
+	content: 'questions';
 	color: #fdbf14;
 }
 
@@ -245,6 +245,12 @@
 }
 
 
+.faq-section p{
+	width: 50%;
+
+}
+
+
 /*Style the label*/
 .faq-section label{
 	font-size: 4em;
@@ -277,6 +283,7 @@
 	position: relative;
 	float:left;
 }
+
 /*If the checkbox is checked, show all paragraphs*/
 .faq-section #q1[type=checkbox]:checked~#a1{
 	display: block;
@@ -289,20 +296,7 @@
 	/* restore clipping defaults */
 	text-overflow: none;
 	white-space: normal;
-	overflow: visible;
-}
-
-.faq-section #q1[type=checkbox]:checked~#a1{
-	display: block;
-	color: white;
-	font-family: Zilla Slab;
-	font-size: 2em;
-	margin-left: 2.5em;
-	margin-top: .5em;
-	margin-bottom: .5em;
-	/* restore clipping defaults */
-	text-overflow: none;
-	white-space: normal;
+	width: 80%;
 	overflow: visible;
 }
 
@@ -321,20 +315,7 @@
 	position: relative;
 	float:left;
 }
-/*If the checkbox is checked, show all paragraphs*/
-.faq-section #q2[type=checkbox]:checked~#a2{
-	display: block;
-	color: white;
-	font-family: Zilla Slab;
-	font-size: 2em;
-	margin-left: 2.5em;
-	margin-top: .5em;
-	margin-bottom: .5em;
-	/* restore clipping defaults */
-	text-overflow: none;
-	white-space: normal;
-	overflow: visible;
-}
+
 
 .faq-section #q2[type=checkbox]:checked~#a2{
 	display: block;
@@ -347,6 +328,7 @@
 	/* restore clipping defaults */
 	text-overflow: none;
 	white-space: normal;
+	width: 80%;
 	overflow: visible;
 }
 
@@ -363,6 +345,7 @@
 	position: relative;
 	float:left;
 }
+
 /*If the checkbox is checked, show all paragraphs*/
 .faq-section #q3[type=checkbox]:checked~#a3{
 	display: block;
@@ -376,9 +359,25 @@
 	text-overflow: none;
 	white-space: normal;
 	overflow: visible;
+	width: 80%;
 }
 
-.faq-section #q3[type=checkbox]:checked~#a3{
+
+/*Question 4*/
+.faq-section #l4::before{
+	content: '+ ';
+	position: relative;
+	float:left;
+}
+
+.faq-section #q4[type=checkbox]:checked~#l4::before{
+	content: '- ';
+	position: relative;
+	float:left;
+}
+
+/*If the checkbox is checked, show all paragraphs*/
+.faq-section #q4[type=checkbox]:checked~#a4{
 	display: block;
 	color: white;
 	font-family: Zilla Slab;
@@ -389,5 +388,98 @@
 	/* restore clipping defaults */
 	text-overflow: none;
 	white-space: normal;
+	width: 80%;
 	overflow: visible;
 }
+
+
+
+/*Question 5*/
+.faq-section #l5::before{
+	content: '+ ';
+	position: relative;
+	float:left;
+}
+
+.faq-section #q5[type=checkbox]:checked~#l5::before{
+	content: '- ';
+	position: relative;
+	float:left;
+}
+
+/*If the checkbox is checked, show all paragraphs*/
+.faq-section #q5[type=checkbox]:checked~#a5{
+	display: block;
+	color: white;
+	font-family: Zilla Slab;
+	font-size: 2em;
+	margin-left: 2.5em;
+	margin-top: .5em;
+	margin-bottom: .5em;
+	/* restore clipping defaults */
+	text-overflow: none;
+	white-space: normal;
+	width: 80%;
+	overflow: visible;
+}
+
+
+/*Question 6*/
+.faq-section #l6::before{
+	content: '+ ';
+	position: relative;
+	float:left;
+}
+
+.faq-section #q6[type=checkbox]:checked~#l6::before{
+	content: '- ';
+	position: relative;
+	float:left;
+}
+
+/*If the checkbox is checked, show all paragraphs*/
+.faq-section #q6[type=checkbox]:checked~#a6{
+	display: block;
+	color: white;
+	font-family: Zilla Slab;
+	font-size: 2em;
+	margin-left: 2.5em;
+	margin-top: .5em;
+	margin-bottom: .5em;
+	/* restore clipping defaults */
+	text-overflow: none;
+	white-space: normal;
+	width: 80%;
+	overflow: visible;
+}
+
+/*Question 7*/
+.faq-section #l7::before{
+	content: '+ ';
+	position: relative;
+	float:left;
+}
+
+.faq-section #q7[type=checkbox]:checked~#l7::before{
+	content: '- ';
+	position: relative;
+	float:left;
+}
+
+/*If the checkbox is checked, show all paragraphs*/
+.faq-section #q7[type=checkbox]:checked~#a7{
+	display: block;
+	color: white;
+	font-family: Zilla Slab;
+	font-size: 2em;
+	margin-left: 2.5em;
+	margin-top: .5em;
+	margin-bottom: .5em;
+	/* restore clipping defaults */
+	text-overflow: none;
+	white-space: normal;
+	width: 80%;
+	overflow: visible;
+}
+
+
