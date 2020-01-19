@@ -220,19 +220,17 @@
 
 /*Hide the checkboxes */
 .faq-section input{
-	position: absolute;
-	z-index: 2;
-	cursor: pointer;
-	opacity: 0;
+	position: relative;
+	z-index: 2;	opacity: 0;
 	display: none\9; /* IE8 and below */
-	margin: 0;
+/*	margin: 0;*/
 	width: 100%;
-	height: 8em;
+	height: 2em;
+	margin: 0 10% 0 0%;
 }
 
 /*Show only the clipped intro */
 .faq-section label+p{
-	display: block;
 	color: white;
 	font-size: 1em;
 	transition: all .15s ease-out;
@@ -247,13 +245,17 @@
 
 .faq-section p{
 	width: 50%;
+	display: none;
 
 }
 
 
 /*Style the label*/
 .faq-section label{
-	font-size: 4em;
+/*	text-indent: -.9em;*/
+	cursor: pointer;
+	display: block;
+	font-size: 2em;
 	display: block;
 	position: relative;
 	font-family: Zilla Slab;
@@ -276,12 +278,14 @@
 	content: '+ ';
 	position: relative;
 	float:left;
+	padding-right: 1%;
 }
 
 .faq-section #q1[type=checkbox]:checked~#l1::before{
 	content: '- ';
 	position: relative;
 	float:left;
+	padding-right: 1%;
 }
 
 /*If the checkbox is checked, show all paragraphs*/
@@ -308,12 +312,14 @@
 	content: '+ ';
 	position: relative;
 	float:left;
+	padding-right: 1%;
 }
 
 .faq-section #q2[type=checkbox]:checked~#l2::before{
 	content: '- ';
 	position: relative;
 	float:left;
+	padding-right: 1%;
 }
 
 
@@ -338,12 +344,14 @@
 	content: '+ ';
 	position: relative;
 	float:left;
+	padding-right: 1%;
 }
 
 .faq-section #q3[type=checkbox]:checked~#l3::before{
 	content: '- ';
 	position: relative;
 	float:left;
+	padding-right: 1%;
 }
 
 /*If the checkbox is checked, show all paragraphs*/
@@ -368,12 +376,14 @@
 	content: '+ ';
 	position: relative;
 	float:left;
+	padding-right: 1%;
 }
 
 .faq-section #q4[type=checkbox]:checked~#l4::before{
 	content: '- ';
 	position: relative;
 	float:left;
+	padding-right: 1%;
 }
 
 /*If the checkbox is checked, show all paragraphs*/
@@ -399,12 +409,14 @@
 	content: '+ ';
 	position: relative;
 	float:left;
+	padding-right: 1%;
 }
 
 .faq-section #q5[type=checkbox]:checked~#l5::before{
 	content: '- ';
 	position: relative;
 	float:left;
+	padding-right: 1%;
 }
 
 /*If the checkbox is checked, show all paragraphs*/
@@ -429,12 +441,14 @@
 	content: '+ ';
 	position: relative;
 	float:left;
+	padding-right: 1%;
 }
 
 .faq-section #q6[type=checkbox]:checked~#l6::before{
 	content: '- ';
 	position: relative;
 	float:left;
+	padding-right: 1%;
 }
 
 /*If the checkbox is checked, show all paragraphs*/
@@ -458,12 +472,14 @@
 	content: '+ ';
 	position: relative;
 	float:left;
+	padding-right: 1%;
 }
 
 .faq-section #q7[type=checkbox]:checked~#l7::before{
 	content: '- ';
 	position: relative;
 	float:left;
+	padding-right: 1%;
 }
 
 /*If the checkbox is checked, show all paragraphs*/
@@ -482,4 +498,65 @@
 	overflow: visible;
 }
 
+/*Question 8*/
+.faq-section #l8::before{
+	content: '+ ';
+	position: relative;
+	float:left;
+	padding-right: 1%;
+}
+
+.faq-section #q8[type=checkbox]:checked~#l8::before{
+	content: '- ';
+	position: relative;
+	float:left;
+	padding-right: 1%;
+}
+
+/*If the checkbox is checked, show all paragraphs*/
+.faq-section #q8[type=checkbox]:checked~#a8{
+	display: block;
+	color: white;
+	font-family: Zilla Slab;
+	font-size: 2em;
+	margin-left: 2.5em;
+	margin-top: .5em;
+	margin-bottom: .5em;
+	/* restore clipping defaults */
+	text-overflow: none;
+	white-space: normal;
+	width: 80%;
+	overflow: visible;
+}
+
+/*Question 9*/
+.faq-section #l9::before{
+	content: '+ ';
+	position: relative;
+	float:left;
+	padding-right: 1%;
+}
+
+.faq-section #q9[type=checkbox]:checked~#l9::before{
+	content: '- ';
+	position: relative;
+	float:left;
+	padding-right: 1%;
+}
+
+/*If the checkbox is checked, show all paragraphs*/
+.faq-section #q9[type=checkbox]:checked~#a9{
+	display: block;
+	color: white;
+	font-family: Zilla Slab;
+	font-size: 2em;
+	margin-left: 2.5em;
+	margin-top: .5em;
+	margin-bottom: .5em;
+	/* restore clipping defaults */
+	text-overflow: none;
+	white-space: normal;
+	width: 80%;
+	overflow: visible;
+}
 
