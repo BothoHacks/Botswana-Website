@@ -26,12 +26,12 @@
 }
 
 .title:before {
-	content: 'Botho';
+	content: 'Kopano';
 	color:white;
 }
 
 .title:after {
-	content: 'Hacks';
+	content: 'Code';
 	color: #fdbf14;
 }
 
@@ -141,6 +141,13 @@
 	font-size:2em;	
 }
 
+
+
+
+
+
+
+
 .secondSubtitle {
 	/*padding-top:15%;*/
 	text-align:left;
@@ -154,29 +161,53 @@
 	margin-bottom: 1%;
 }
 
-.secondSubtitle:before {
-	/*padding-top:15%;*/
-	content: 'Example';
-	color:white;
+#day{
+	text-decoration:underline;
 }
 
-.secondSubtitle:after {
-	/*padding-top:15%;*/
-	content: ' Projects';
-	color: #fdbf14;
+.schedule {
+  padding-left: 2%;
+  font-family:Zilla Slab;
+  color:white;
+  font-size:2em;	
+  box-sizing: border-box;
 }
 
-.exs{
-	padding-left: 10%;
-
+.event {
+	margin:0%;
 }
 
-.ex {
-	text-align:left;
-	font-family:Zilla Slab;
-	color:white;
-	font-size:2em;	
+.column {
+  float: left;
+  padding: 0%;
+  color: white;
+  box-sizing: border-box;
 }
+
+.left {
+  width: 20%;
+  color: #fdbf14;
+}
+
+.right {
+  width: 70%;
+}
+
+.row:after {
+  box-sizing: border-box;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+
+
+
 
 
 .thirdSubtitle{
@@ -203,6 +234,11 @@
 	content: 'questions';
 	color: #fdbf14;
 }
+
+
+
+
+
 
 
 
@@ -260,7 +296,9 @@
 	position: relative;
 	font-family: Zilla Slab;
 	color: white;
-	height: 1em;
+/*	height: 5%;*/
+	--pwidth: 100vw;
+	height:calc(1/var(--pwidth));
 	/*padding: .5em .5em;*/
 	transition: all .15s ease-out;
 }
