@@ -26,12 +26,12 @@
 }
 
 .title:before {
-	content: 'Kopano';
+	content: 'Botho';
 	color:white;
 }
 
 .title:after {
-	content: 'Code';
+	content: 'Hacks';
 	color: #fdbf14;
 }
 
