@@ -32,7 +32,7 @@
 
 .title:after {
 	content: 'Hacks';
-	color: #fdbf14;
+	color: #000000;
 }
 
 .title-desc {
@@ -43,9 +43,14 @@
 	margin-top: 0em;
 }
 
+em {
+	color: #000000;
+	font-style: normal;
+}
+
 .animated {
-	background-color: #86162c;
-	/*yellow is fdbf14*/
+	background-color: #75aadb;
+	/*yellow is 75aadb*/
 	padding-bottom:100px;
 	padding-left:inherit;
 	padding-right:inherit;
@@ -92,7 +97,7 @@
   text-align: center;
   text-decoration: none;
   outline: none;
-  color: #86162c;
+  color: #75aadb;
   background-color: #fff;
   border: none;
   border-radius: 3em;
@@ -101,7 +106,7 @@
 .button:hover {background-color: #eee}
 
 .button:active {
-  background-color: #fdbf14;
+  background-color: #75aadb;
 }
 
 .restOfPage {
@@ -130,7 +135,7 @@
 .firstSubtitle:after {
 	/*padding-top:15%;*/
 	content: 'hackathon?';
-	color: #fdbf14;
+	color: #000000;
 }
 
 .desc {
@@ -188,7 +193,7 @@
 .left {
   width: 25%;
   padding-right: 2%;
-  color: #fdbf14;
+  color: #000000;
 }
 
 .right {
@@ -234,7 +239,7 @@
 .thirdSubtitle:after {
 	/*padding-top:15%;*/
 	content: 'questions';
-	color: #fdbf14;
+	color: #000000;
 }
 
 
@@ -600,3 +605,33 @@
 	overflow: visible;
 }
 
+/*Question 10*/
+.faq-section #l10::before{
+	content: '+ ';
+	position: relative;
+	float:left;
+	padding-right: 1%;
+}
+
+.faq-section #q10[type=checkbox]:checked~#l10::before{
+	content: '- ';
+	position: relative;
+	float:left;
+	padding-right: 1%;
+}
+
+/*If the checkbox is checked, show all paragraphs*/
+.faq-section #q10[type=checkbox]:checked~#a10{
+	display: block;
+	color: white;
+	font-family: Zilla Slab;
+	font-size: 2em;
+	margin-left: 2.5em;
+	margin-top: .5em;
+	margin-bottom: .5em;
+	/* restore clipping defaults */
+	text-overflow: none;
+	white-space: normal;
+	width: 80%;
+	overflow: visible;
+}
