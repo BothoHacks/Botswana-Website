@@ -32,7 +32,7 @@
 
 .title:after {
 	content: 'Hacks';
-	color: #000000;
+	color: #75aadb;
 }
 
 .title-desc {
@@ -44,13 +44,13 @@
 }
 
 em {
-	color: #000000;
+	color: #75aadb;
 	font-style: normal;
 }
 
 .animated {
-	background-color: #75aadb;
-	/*yellow is 75aadb*/
+	background-color: #222222;
+	background-image: url(/bg.png)
 	padding-bottom:100px;
 	padding-left:inherit;
 	padding-right:inherit;
@@ -97,7 +97,7 @@ em {
   text-align: center;
   text-decoration: none;
   outline: none;
-  color: #75aadb;
+  color: #000000;
   background-color: #fff;
   border: none;
   border-radius: 3em;
@@ -135,7 +135,7 @@ em {
 .firstSubtitle:after {
 	/*padding-top:15%;*/
 	content: 'hackathon?';
-	color: #000000;
+	color: #75aadb;
 }
 
 .desc {
@@ -193,7 +193,7 @@ em {
 .left {
   width: 25%;
   padding-right: 2%;
-  color: #000000;
+  color: #75aadb;
 }
 
 .right {
@@ -239,7 +239,7 @@ em {
 .thirdSubtitle:after {
 	/*padding-top:15%;*/
 	content: 'questions';
-	color: #000000;
+	color: #75aadb;
 }
 
 
