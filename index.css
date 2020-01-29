@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Zilla+Slab');
+body{
+
+    overflow-x: hidden;
+}
+
 .title {
 	margin-top: 0px;
 	text-align:center;
@@ -144,6 +149,7 @@ em {
 
 .desc {
 	padding-left: 2%;
+	width: 95%;
 	text-align:left;
 	font-family:Zilla Slab;
 	color:white;
