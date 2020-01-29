@@ -87,6 +87,7 @@ em {
     padding-bottom: 5%;
 }
 
+
 .button {
   margin: 0 auto;
   display: inline-block;
@@ -103,7 +104,10 @@ em {
   border-radius: 3em;
 }
 
-.button:hover {background-color: #eee}
+.button:hover {
+  background-color: #eee; 
+  cursor: pointer;
+}
 
 .button:active {
   background-color: #75aadb;
@@ -128,13 +132,13 @@ em {
 
 .firstSubtitle:before {
 	/*padding-top:15%;*/
-	content: 'what\'s a ';
+	content: 'what is ';
 	color:white;
 }
 
 .firstSubtitle:after {
 	/*padding-top:15%;*/
-	content: 'hackathon?';
+	content: 'BothoHacks?';
 	color: #75aadb;
 }
 
