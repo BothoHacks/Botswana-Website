@@ -156,20 +156,20 @@ em {
 }
 
 
-
-
-.firstP {
-  width: 40%;
+.FP {
+  width: 34%;
   float: left;
   display: inline-block;
   margin-left: 1.5%;
-  margin-right: 2%;
+  margin-right: 1.5%;
 }
 
-.secondP {
+.SP {
   width: 55%;
   float: left;
   display: inline-block;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
 }
 
 .sec {
@@ -268,19 +268,67 @@ li {
 
 .thirdSubtitle:before {
 	/*padding-top:15%;*/
-	content: 'frequently asked ';
+	content: 'what should I ';
 	color:white;
 }
 
 .thirdSubtitle:after {
 	/*padding-top:15%;*/
-	content: 'questions';
+	content: 'bring?';
 	color: #75aadb;
 }
 
 
+.fourthSubtitle{
+	/*padding-top:15%;*/
+	text-align:left;
+	font-family:Zilla Slab;
+	color:white;
+	font-weight:600;
+	/*font-size:60px;*/
+	font-size:6vw;
+	padding-top:10%;
+	padding-left: 2%;
+	margin-bottom: 1%;
+}
+
+.fourthSubtitle:before {
+	/*padding-top:15%;*/
+	content: "what will be ";
+	color:white;
+}
+
+.fourthSubtitle:after {
+	/*padding-top:15%;*/
+	content: 'provided?';
+	color: #75aadb;
+}
 
 
+.fifthSubtitle{
+	/*padding-top:15%;*/
+	text-align:left;
+	font-family:Zilla Slab;
+	color:white;
+	font-weight:600;
+	/*font-size:60px;*/
+	font-size:6vw;
+	padding-top:10%;
+	padding-left: 2%;
+	margin-bottom: 1%;
+}
+
+.fifthSubtitle:before {
+	/*padding-top:15%;*/
+	content: "frequently asked ";
+	color:white;
+}
+
+.fifthSubtitle:after {
+	/*padding-top:15%;*/
+	content: 'questions';
+	color: #75aadb;
+}
 
 
 
