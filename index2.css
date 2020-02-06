@@ -122,29 +122,19 @@ em {
 	height: 20em;
 }
 
-.firstSubtitle {
+.subtitle {
 	/*padding-top:15%;*/
 	text-align:left;
 	font-family:Zilla Slab;
 	color:white;
 	font-weight:600;
 	/*font-size:60px;*/
-	font-size:6vw;
+	font-size:4vw;
 	padding-left: 2%;
 	margin-bottom: 1%;
+  margin-top: 1%;
 }
 
-.firstSubtitle:before {
-	/*padding-top:15%;*/
-	content: 'what is ';
-	color:white;
-}
-
-.firstSubtitle:after {
-	/*padding-top:15%;*/
-	content: 'BothoHacks?';
-	color: #75aadb;
-}
 
 .desc {
 	padding-left: 2%;
@@ -152,7 +142,14 @@ em {
 	text-align:left;
 	font-family:Zilla Slab;
 	color:white;
-	font-size:2em;
+	font-size:1.5vw;
+}
+
+li {
+  font-family:Zilla Slab;
+  color:white;
+  font-size:1.5vw;
+  margin-bottom: 2%;
 }
 
 
@@ -179,28 +176,8 @@ em {
   margin-bottom: 0px;
 }
 
-li {
-  font-family:Zilla Slab;
-  color:white;
-  font-size:2em;
-  margin-bottom: 2%;
-}
 
 
-
-
-.secondSubtitle {
-	/*padding-top:15%;*/
-	text-align:left;
-	font-family:Zilla Slab;
-	color:white;
-	font-weight:600;
-	/*font-size:60px;*/
-	font-size:6vw;
-	/* padding-top:10%; */
-	padding-left: 2%;
-	margin-bottom: 1%;
-}
 
 #day{
 	text-decoration:underline;
@@ -211,7 +188,7 @@ li {
   padding-left: 7%;
   font-family:Zilla Slab;
   color:white;
-  font-size:2em;
+  font-size:1.5vw;
   box-sizing: border-box;
 }
 
@@ -249,91 +226,6 @@ li {
 
 
 
-
-
-
-
-.thirdSubtitle{
-	/*padding-top:15%;*/
-	text-align:left;
-	font-family:Zilla Slab;
-	color:white;
-	font-weight:600;
-	/*font-size:60px;*/
-	font-size:6vw;
-	padding-top:10%;
-	padding-left: 2%;
-	margin-bottom: 1%;
-}
-
-.thirdSubtitle:before {
-	/*padding-top:15%;*/
-	content: 'what should I ';
-	color:white;
-}
-
-.thirdSubtitle:after {
-	/*padding-top:15%;*/
-	content: 'bring?';
-	color: #75aadb;
-}
-
-
-.fourthSubtitle{
-	/*padding-top:15%;*/
-	text-align:left;
-	font-family:Zilla Slab;
-	color:white;
-	font-weight:600;
-	/*font-size:60px;*/
-	font-size:6vw;
-	padding-top:10%;
-	padding-left: 2%;
-	margin-bottom: 1%;
-}
-
-.fourthSubtitle:before {
-	/*padding-top:15%;*/
-	content: "what will be ";
-	color:white;
-}
-
-.fourthSubtitle:after {
-	/*padding-top:15%;*/
-	content: 'provided?';
-	color: #75aadb;
-}
-
-
-.fifthSubtitle{
-	/*padding-top:15%;*/
-	text-align:left;
-	font-family:Zilla Slab;
-	color:white;
-	font-weight:600;
-	/*font-size:60px;*/
-	font-size:6vw;
-	padding-top:10%;
-	padding-left: 2%;
-	margin-bottom: 1%;
-}
-
-.fifthSubtitle:before {
-	/*padding-top:15%;*/
-	content: "frequently asked ";
-	color:white;
-}
-
-.fifthSubtitle:after {
-	/*padding-top:15%;*/
-	content: 'questions';
-	color: #75aadb;
-}
-
-
-
-
-
 /*Add some spacing*/
 .faq-section{
 	margin: 0 0 0 8%;
@@ -352,7 +244,7 @@ li {
 	display: none\9; /* IE8 and below */
 /*	margin: 0;*/
 	width: 100%;
-	height: 2em;
+	height: 1vw;
 	margin: 0 10% 0 0%;
 }
 
@@ -362,7 +254,7 @@ li {
 	font-size: 1em;
 	transition: all .15s ease-out;
 	font-family: Zilla Slab;
-	margin-left: 2.5em;
+	margin-left: 1.5vw;
 	/* Clipping text */
 	text-overflow: ellipsis;
 	white-space: nowrap;
@@ -382,7 +274,7 @@ li {
 /*	text-indent: -.9em;*/
 	cursor: pointer;
 	display: block;
-	font-size: 2em;
+	font-size: 1.5vw;
 	display: block;
 	position: relative;
 	font-family: Zilla Slab;
