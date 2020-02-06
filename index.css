@@ -55,7 +55,7 @@ em {
 
 .animated {
 	background-color: #222222;
-	background-image: url(/bg.png)
+	background-image: url(/bg.png);
 	padding-bottom:100px;
 	padding-left:inherit;
 	padding-right:inherit;
@@ -110,7 +110,7 @@ em {
 }
 
 .button:hover {
-  background-color: #eee; 
+  background-color: #eee;
   cursor: pointer;
 }
 
@@ -129,8 +129,7 @@ em {
 	color:white;
 	font-weight:600;
 	/*font-size:60px;*/
-	font-size:6em;
-	padding-top:10%;
+	font-size:6vw;
 	padding-left: 2%;
 	margin-bottom: 1%;
 }
@@ -153,12 +152,39 @@ em {
 	text-align:left;
 	font-family:Zilla Slab;
 	color:white;
-	font-size:2em;	
+	font-size:2em;
 }
 
 
 
 
+.firstP {
+  width: 40%;
+  float: left;
+  display: inline-block;
+  margin-left: 1.5%;
+  margin-right: 2%;
+}
+
+.secondP {
+  width: 55%;
+  float: left;
+  display: inline-block;
+}
+
+.sec {
+  width: 100%;
+  float:left;
+  display:block;
+  margin-bottom: 0px;
+}
+
+li {
+  font-family:Zilla Slab;
+  color:white;
+  font-size:2em;
+  margin-bottom: 2%;
+}
 
 
 
@@ -170,8 +196,8 @@ em {
 	color:white;
 	font-weight:600;
 	/*font-size:60px;*/
-	font-size:6em;
-	padding-top:10%;
+	font-size:6vw;
+	/* padding-top:10%; */
 	padding-left: 2%;
 	margin-bottom: 1%;
 }
@@ -185,7 +211,7 @@ em {
   padding-left: 7%;
   font-family:Zilla Slab;
   color:white;
-  font-size:2em;	
+  font-size:2em;
   box-sizing: border-box;
 }
 
@@ -234,7 +260,7 @@ em {
 	color:white;
 	font-weight:600;
 	/*font-size:60px;*/
-	font-size:6em;
+	font-size:6vw;
 	padding-top:10%;
 	padding-left: 2%;
 	margin-bottom: 1%;
