@@ -170,6 +170,11 @@ li {
   margin-right: 1.5%;
 }
 
+.case {
+  background-color: #444444;
+  padding-bottom: 1%;
+}
+
 .sec {
   width: 100%;
   float:left;
@@ -611,4 +616,31 @@ li {
 	white-space: normal;
 	width: 80%;
 	overflow: visible;
+}
+
+.vl {
+  border-left: 6px solid green;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
+
+/* .SP:before {
+    content:"";
+    z-index: 100;
+    float: left;
+    display: inline-block;
+    height: 100px;
+    border-left: 2px dotted #ffffff;
+} */
+
+.horizLine:after {
+    content: ""; /* This is necessary for the pseudo element to work. */
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0; /* This will center the border. */
+    width: 5.5%;
+    border-bottom: dotted white; /* This creates the border. Replace black with whatever color you want. */
+    float: left;
 }
