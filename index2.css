@@ -171,8 +171,9 @@ li {
 }
 
 .case {
+  border-radius: 2%;
   background-color: #444444;
-  padding-bottom: 1%;
+  padding-bottom: 2%;
 }
 
 .sec {
