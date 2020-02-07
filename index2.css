@@ -13,6 +13,7 @@ body{
 	font-size:8em;
 	margin-block-start:0px;
 	margin-block-end:0px;
+	color:white;
 }
 
 .logo {
@@ -30,7 +31,7 @@ body{
 
 }
 
-.title:before {
+/* .title:before {
 	content: 'Botho';
 	color:white;
 }
@@ -38,7 +39,7 @@ body{
 .title:after {
 	content: 'Hacks';
 	color: #75aadb;
-}
+} */
 
 .title-desc {
 	text-align:center;
@@ -154,7 +155,7 @@ li {
 
 
 .FP {
-  width: 34%;
+  width: 42%;
   float: left;
   display: inline-block;
   margin-left: 1.5%;
@@ -162,7 +163,7 @@ li {
 }
 
 .SP {
-  width: 55%;
+  width: 45%;
   float: left;
   display: inline-block;
   margin-left: 1.5%;
@@ -251,7 +252,7 @@ li {
 /*Show only the clipped intro */
 .faq-section label+p{
 	color: white;
-	font-size: 1em;
+	font-size: 1vw;
 	transition: all .15s ease-out;
 	font-family: Zilla Slab;
 	margin-left: 1.5vw;
@@ -314,7 +315,7 @@ li {
 	display: block;
 	color: white;
 	font-family: Zilla Slab;
-	font-size: 2em;
+	font-size: 1.5em;
 	margin-left: 2.5em;
 	margin-top: .5em;
 	margin-bottom: .5em;
@@ -348,7 +349,7 @@ li {
 	display: block;
 	color: white;
 	font-family: Zilla Slab;
-	font-size: 2em;
+	font-size: 1.5vw;
 	margin-left: 2.5em;
 	margin-top: .5em;
 	margin-bottom: .5em;
@@ -380,7 +381,7 @@ li {
 	display: block;
 	color: white;
 	font-family: Zilla Slab;
-	font-size: 2em;
+	font-size: 1.5vw;
 	margin-left: 2.5em;
 	margin-top: .5em;
 	margin-bottom: .5em;
@@ -412,7 +413,7 @@ li {
 	display: block;
 	color: white;
 	font-family: Zilla Slab;
-	font-size: 2em;
+	font-size: 1.5vw;
 	margin-left: 2.5em;
 	margin-top: .5em;
 	margin-bottom: .5em;
@@ -445,7 +446,7 @@ li {
 	display: block;
 	color: white;
 	font-family: Zilla Slab;
-	font-size: 2em;
+	font-size: 1.5vw;
 	margin-left: 2.5em;
 	margin-top: .5em;
 	margin-bottom: .5em;
@@ -477,7 +478,7 @@ li {
 	display: block;
 	color: white;
 	font-family: Zilla Slab;
-	font-size: 2em;
+	font-size: 1.5vw;
 	margin-left: 2.5em;
 	margin-top: .5em;
 	margin-bottom: .5em;
@@ -508,7 +509,7 @@ li {
 	display: block;
 	color: white;
 	font-family: Zilla Slab;
-	font-size: 2em;
+	font-size: 1.5vw;
 	margin-left: 2.5em;
 	margin-top: .5em;
 	margin-bottom: .5em;
@@ -539,7 +540,7 @@ li {
 	display: block;
 	color: white;
 	font-family: Zilla Slab;
-	font-size: 2em;
+	font-size: 1.5vw;
 	margin-left: 2.5em;
 	margin-top: .5em;
 	margin-bottom: .5em;
@@ -570,7 +571,7 @@ li {
 	display: block;
 	color: white;
 	font-family: Zilla Slab;
-	font-size: 2em;
+	font-size: 1.5vw;
 	margin-left: 2.5em;
 	margin-top: .5em;
 	margin-bottom: .5em;
@@ -601,7 +602,7 @@ li {
 	display: block;
 	color: white;
 	font-family: Zilla Slab;
-	font-size: 2em;
+	font-size: 1.5vw;
 	margin-left: 2.5em;
 	margin-top: .5em;
 	margin-bottom: .5em;
