@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Zilla+Slab');
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab:400i&display=swap');
+
 body{
 
     overflow-x: hidden;
@@ -56,7 +59,7 @@ em {
 
 .animated {
 	background-color: #222222;
-	background-image: url(/bg.png);
+	/* background-image: url(/bg.png); */
 	padding-bottom:100px;
 	padding-left:inherit;
 	padding-right:inherit;
