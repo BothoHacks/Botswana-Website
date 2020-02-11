@@ -649,3 +649,13 @@ li {
     border-bottom: dotted white; /* This creates the border. Replace black with whatever color you want. */
     float: left;
 }
+
+.plogo {
+  width:25%;
+  float: left;
+  display: inline-block;
+  text-align: center;
+  padding:0px;
+  margin: 0px;
+  margin-bottom: 5vh;
+}
