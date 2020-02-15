@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css?family=Zilla+Slab:400i&display=swap');
 
 body{
-
     overflow-x: hidden;
 }
 
@@ -626,6 +625,37 @@ li {
 
 /*If the checkbox is checked, show all paragraphs*/
 .faq-section #q10[type=checkbox]:checked~#a10{
+	display: block;
+	color: white;
+	font-family: Zilla Slab;
+	font-size: 1.5vw;
+	margin-left: 2.5em;
+	margin-top: .5em;
+	margin-bottom: .5em;
+	/* restore clipping defaults */
+	text-overflow: none;
+	white-space: normal;
+	width: 80%;
+	overflow: visible;
+}
+
+/*Question 11*/
+.faq-section #l11::before{
+	content: '+ ';
+	position: relative;
+	float:left;
+	padding-right: 1%;
+}
+
+.faq-section #q11[type=checkbox]:checked~#l11::before{
+	content: '- ';
+	position: relative;
+	float:left;
+	padding-right: 1%;
+}
+
+/*If the checkbox is checked, show all paragraphs*/
+.faq-section #q11[type=checkbox]:checked~#a11{
 	display: block;
 	color: white;
 	font-family: Zilla Slab;
