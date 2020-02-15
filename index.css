@@ -20,7 +20,7 @@ body{
 }
 
 .gbg {
-  background-image: url("./gifs/combined.gif");
+  background-image: url("./gifs/smaller.gif");
   background-repeat:no-repeat;
   background-size:cover;
 }
