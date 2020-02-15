@@ -21,7 +21,7 @@ body{
 }
 
 .gbg {
-  background-image: url("./gifs/p1.gif");
+  background-image: url("./gifs/combined.gif");
   background-repeat:no-repeat;
   background-size:cover;
 }
@@ -29,12 +29,12 @@ body{
 .color-overlay {
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(34, 34, 34, .7);
 }
-
+/*
 .reg {
-  opacity: 1;
-}
+  opacity: 0;
+} */
 
 .logo {
 	height: 8em;
