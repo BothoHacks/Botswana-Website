@@ -17,6 +17,23 @@ body{
 	margin-block-start:0px;
 	margin-block-end:0px;
 	color:white;
+  opacity: 1;
+}
+
+.gbg {
+  background-image: url("./gifs/p1.gif");
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+.color-overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.reg {
+  opacity: 1;
 }
 
 .logo {
