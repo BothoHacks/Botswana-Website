@@ -8,27 +8,33 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="fade.js"></script>
     <script type="text/javascript" src="scroll.js"></script>
-
-    <div style="width:100%; overflow:hidden; text-align: center; padding-top: 18vh;">
-      <div class="logoBox">
-        <object class="logo" data="BLogoBW.svg" type="image/svg+xml"></object>
-      </div>
-      <div class="titleBox">
-         <p class=title>Botho<em>Hacks</em></p>
-      </div>
-    </div>
-    <p class=title-desc style="margin-top: -.7em; font-size:2em; font-style:italic;">Developing technology to improve life in Africa</p>
-    <p class=title-desc style="margin-top: -.2em">A free Botswana-wide hackathon in Gaborone on March 16-17, 2020</p>
-    <p class=title-desc style="margin-top: -.5em">Hosted by <em>Botho University</em> in collaboration with</p>
-    <p class=title-desc style="margin-top: -1em"><em>Clemson University</em> and the <em>U.S. National Science Foundation</em></p>
-    <!-- <p class=title-desc style="margin-top: -.5em">Applications due <em>March 6th</em></p> -->
-    <div class="spacer" style="height:3vh"></div>
-    <div class="buttonsContainer">
-      <div class="buttonBox">
-        <button  style="padding-top:1em; padding-bottom:1.3em" class="button"  onclick="window.location.href = 'http://apply.bothohacks.org/login';"><p  style="padding-top: 1px; margin-top: inherit; margin-bottom:-10px;">Apply Now!</p><p style="font-size:.7em;margin-bottom:-2.5em; margin-top:.45em;">(due 06/03/2020)<p></button>
-      </div>
-      <div class="buttonBox">
-        <a href=mailto:info@bothohacks.org><button class="button" style="padding-top:1em; padding-bottom:1.4em">Email Us</button></a>
+    <div class="gbg">
+      <div id="b" class="color-overlay">
+        <div class="reg">
+          <div style="width:100%; overflow:hidden; text-align: center; padding-top: 18vh;">
+            <div class="logoBox">
+              <object class="logo" data="BLogoBW.svg" type="image/svg+xml"></object>
+            </div>
+            <div class="titleBox">
+               <p class="title">Botho<em>Hacks</em></p>
+            </div>
+          </div>
+          <p class=title-desc style="margin-top: -.7em; font-size:2em; font-style:italic;">Developing technology to improve life in Africa</p>
+          <p class=title-desc style="margin-top: -.2em">A free Botswana-wide hackathon in Gaborone on March 16-17, 2020</p>
+          <p class=title-desc style="margin-top: -.5em">Hosted by <em>Botho University</em> in collaboration with</p>
+          <p class=title-desc style="margin-top: -1em"><em>Clemson University</em> and the <em>U.S. National Science Foundation</em></p>
+          <!-- <p class=title-desc style="margin-top: -.5em">Applications due <em>March 6th</em></p> -->
+          <div class="spacer" style="height:3vh"></div>
+          <div class="buttonsContainer">
+            <div class="buttonBox">
+              <button  style="padding-top:1em; padding-bottom:1.3em" class="button"  onclick="window.location.href = 'http://apply.bothohacks.org/login';"><p  style="padding-top: 1px; margin-top: inherit; margin-bottom:-10px;">Apply Now!</p><p style="font-size:.7em;margin-bottom:-2.5em; margin-top:.45em;">(due 06/03/2020)<p></button>
+            </div>
+            <div class="buttonBox">
+              <a href=mailto:info@bothohacks.org><button class="button" style="padding-top:1em; padding-bottom:1.4em">Email Us</button></a>
+            </div>
+          </div>
+          <div class="spacer" style="height:25vh"></div>
+        </div>
       </div>
     </div>
     <div class="spacer" style="height:25vh"></div>
@@ -62,6 +68,7 @@
             <li><em>Beginner and Advanced Categories</em> - You'll fit in and have a chance to compete regardless of your skill level</li>
             <li><em>Learn New Skills</em> - Use our in-event workshops to learn marketable new skills (Python, Arduino)</li>
             <li><em>Join an Incubator Program</em> - Winners of the advanced categories will have a chance to join AfricaHacks' business incubator</li>
+            <li><em>Earn a certificate</em> - All hackathon participants will earn a technical certificate from the organization</li>
           </ul>
         </div>
       </div>
@@ -252,6 +259,10 @@
             <input type="checkbox" id="q10">
             <label id="l10" for="q10">Are there prizes?</label>
             <p id="a10">Yes! Over P30,000 worth in prizes will be awarded in categories like “Most Creative Hack”, “Best Hardware Hack”, and “Best Hack for Good”.</p>
+
+            <input type="checkbox" id="q11">
+            <label id="l11" for="q11">Does my whole team need to register</label>
+            <p id="a11">Yes. Everyone on each team must be registered prior to the application deadline.</p>
 
             <input type="checkbox" id="q6">
             <label id="l6" for="q6">What do I need to bring?</label>

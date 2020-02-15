@@ -1,19 +1,22 @@
-$(document).ready(function(){
-  // Add smooth scrolling to all links
-  $("a").on('click', function(event) {
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
-      // Store hash
-      var hash = this.hash;
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
+
+
+$(document).scroll(function() {
+  var dHeight = $(this).height()-$(window).height();
+  if (dHeight >= $(this).scrollTop()) {
+    var elements = document.getElementsByClassName("color-overlay");
+    element = getComputedStyle(elements[0]).getPropertyValue('background');
+    //Get values
+    colors = element.split(', ');
+    colors[0] = parseFloat(colors[0].split('(')[1]);
+    colors[1] = parseFloat(colors[1]);
+    colors[2] = parseFloat(colors[2]);
+    //Correct missing alpha
+    if (colors.length == 3)
+      colors[3] = 1;
+    //Apply new style
+    colors[3] = 1.5*($(this).scrollTop() / dHeight)+.7;
+    colors = 'rgba(' + colors.join(',') + ')';
+    elements[0].style.backgroundColor = colors;
+    // $('color-overlay').css('background', 'rgba(34,34,34,'+ $(this).scrollTop() / dHeight + ')');
+  }
 });
