@@ -129,9 +129,15 @@ em {
   border-radius: 3em;
 }
 
+
 .button:hover {
   background-color: #eee;
   cursor: pointer;
+}
+
+.button:hover~.dt {
+  background-color: #eee;
+  color: black;
 }
 
 .button:active {
