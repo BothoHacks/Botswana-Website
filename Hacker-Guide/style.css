@@ -1,0 +1,60 @@
+body {
+	background-color: #222222;
+	width: 74vw;
+	margin: auto;
+}
+
+h1 {
+	color: #75AADB;
+	font-family: Zilla Slab;
+	text-align: center;
+	margin-bottom: 0;
+	font-size: 40pt;
+}
+
+.subtitle {
+	color: #ffffff;
+	font-family: Zilla Slab;
+	font-style: italic;
+	text-align: center;
+	margin-top: 0;
+	font-size: 20pt;
+}
+
+.table-of-contents {
+	color: #75aadb;
+	font-family: Zilla Slab;
+	text-align: center;
+	text-decoration: underline;
+	margin-bottom: 0;
+	font-size: 30pt;
+}
+
+.section-title {
+	color: #75aadb;
+	font-family: Zilla Slab;
+	text-align: center;
+	text-decoration: underline;
+	margin-bottom: 0;
+	font-size: 20pt;
+}
+
+.dear-hacker {
+	color: #75aadb;
+	font-family: Zilla Slab;
+	font-size: 26pt;
+	margin-bottom: 0;
+}
+
+.content-text {
+	color: #ffffff;
+	font-family: Zilla Slab;
+	font-size: 18pt;
+}
+
+td {
+	text-align: center;
+	color: #ffffff;
+	font-family: Zilla Slab;
+	font-size: 18pt;
+}
