@@ -316,3 +316,55 @@ em#blue {
 .workshop-description {
 	font-style: italic;
 }
+
+
+
+.desc {
+	padding-left: 2%;
+	width: 95%;
+	text-align:left;
+	font-family:Zilla Slab;
+	color:white;
+	font-size:4vh;
+}
+#day{
+	text-decoration:underline;
+    padding-left: 7%;
+}
+
+.schedule {
+  padding-left: 7%;
+  font-family:Zilla Slab;
+  color:white;
+  font-size:4vh;
+  box-sizing: border-box;
+}
+
+.event {
+	margin:0%;
+}
+
+.column {
+  float: left;
+  padding: 0%;
+  color: white;
+  box-sizing: border-box;
+}
+
+.left {
+  width: 25%;
+  padding-right: 2%;
+  color: #75aadb;
+}
+
+.right {
+  width: 70%;
+}
+
+.row:after {
+  box-sizing: border-box;
+  content: "";
+  display: table;
+  clear: both;
+  padding-bottom: 1vh;
+}
