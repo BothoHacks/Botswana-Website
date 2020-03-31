@@ -1,3 +1,3 @@
 # Website for BothoHacks
 
-`master` branch is deployed--be careful
+Thank you to everyone who attended and/or helped!
